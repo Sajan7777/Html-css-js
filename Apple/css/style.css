@@ -1,0 +1,322 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "SFDisplay";
+}
+
+.main, .icons{
+	width: 25px;
+	height: 25px;
+	color: #fff;
+}
+
+.navbar{
+	height: 50px;
+	width: 100%;
+	background: #333333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mon-nav{
+	display: flex;
+	justify-content: space-between;
+	display: none;
+}
+
+.navbar ul li{
+	display: inline-block;
+	padding: 30px;
+	vertical-align: middle;
+}
+
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #8D8D8D;
+	font-family: "SF Pro Display";
+}
+
+.navbar ul li a:hover{
+	color: #fff;
+	transition: 0.1s ease;
+}
+
+.info{
+	width: 100%;
+	height: 43px;
+	background: #F5F5F7;
+	text-align: center;
+}
+.info p{
+	padding-top: 10px;
+}
+
+.info p a{
+	text-decoration: none;
+	color: #619FDD;
+	font-family: SF Pro Display;
+}
+.info p a:hover{
+	color: #619FDD;
+	text-decoration: underline;
+}
+
+.content-first{
+	height: 589px;
+	width: 100%;
+	text-align: center;
+	
+}
+.content-first-details{
+	padding-top: 40px;
+}
+.content-first-img{
+	padding-top: 20px;
+	max-width: 55%;	
+}
+.h1{
+	font-family: "SF Pro Display";
+	font-size: 50px;
+	font-weight: bold;
+}
+.h2{
+	font-family: SF Pro Display;
+	font-size: 24px;
+}
+.text{
+	font-family: SF Pro Text;
+	font-size: 18px;
+	color: #86868B;
+}
+.link{
+	font-family: SF Pro Display;
+	font-size: 21px;
+	color: #2997FF;
+	text-decoration: none;
+	padding: 10px;
+}
+.link-1{
+	font-family: SF Pro Display;
+	font-size: 18px;
+	color: #2997FF;
+	text-decoration: none;
+	padding: 10px;
+}
+.link-p{
+	font-family: SF Pro Text;
+	color: #2997FF;
+	text-decoration: none;
+}
+
+.link-p:hover{
+	text-decoration: underline;
+	transition: 0.3s ease;
+	color: #2997FF;
+}
+.link:hover{
+	text-decoration: underline;
+	transition: 0.3s ease;
+	color: #2997FF;
+}
+.link-1:hover{
+	text-decoration: underline;
+	transition: 0.3s ease;
+	color: #2997FF;
+}
+.content-second{
+	margin-top: 10px;
+	width: 100%;
+	height: 579px;
+	position: relative;
+	text-align: center;
+}
+.content-second-details{
+	margin-top: -530px;
+}
+.content-second-img{
+	width: 100%;
+	height: 100%;
+}
+
+.h11{
+	color: #fff;
+	font-family: "SF Pro Display";
+	font-size: 50px;
+	font-weight: bold;
+}
+.h22{
+	font-family: "SF Pro Display";
+	font-size: 24px;
+	color: #fff;
+}
+
+.showbox{
+	width: 100%;
+	height: 100vh;
+	color: red;
+}
+
+.showbox-img{
+	margin-top: 12px;
+	width: 100%;
+}
+.showbox-content{
+	text-align: center;
+	margin-top: -220px;
+	position: relative;
+}
+.appletv{
+	padding-left: 35px;
+	padding-top: 20px;
+}
+.see{
+	padding-top: 20px;
+}
+.stream{
+	padding-top: 20px;
+	font-family: SF Pro Display;
+	font-size: 21px;
+	color: #111111;
+}
+
+.stream:hover{
+	text-decoration: underline;
+	transition: 0.3s ease;
+	color: #111111;
+}
+.products{
+	display: flex;
+	margin-top: 120px;
+}
+.products-1{
+	display: flex;
+	margin-top: 10px;
+}
+.products-text{
+	margin-top:-500px ;
+	color: white;
+	padding-top: 5px;
+}
+.products-text h1{
+	font-family: "SF Pro Display";
+	font-size: 40px;
+}
+.products-text h2{
+	font-family: "SF Pro Display";
+	font-size: 21px;
+}
+.products-text-imac{
+	margin-top:-500px ;
+	color: #111111;
+	padding-top: 5px;
+}
+.products-text-imac h1{
+	font-family: "SF Pro Display";
+	font-size: 40px;
+}
+.products-text-imac h2{
+	font-family: "SF Pro Display";
+	font-size: 21px;
+}
+.ipad{
+	width: 745px;
+	height: 577px;
+	margin-left: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.imac{
+	width: 745px;
+	height: 577px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.ipad-img{
+	width: 100%;
+	height: 100%;
+}
+.fitness-img{
+	padding-top: 240px;
+	height: 60%;
+	width: 100%;
+	cursor: pointer;
+}
+
+footer{
+	margin-top: 10px;
+	background-color: #e9e9eb;
+	width: 100%;
+	height: 145vh;
+}
+
+.discription{
+	padding-top: 10px;
+	padding-left: 265px;
+	padding-right: 265px;
+}
+
+.discription p{
+	font-family: SF Pro Text;
+	color: #86868B;
+	font-size: 12px;
+}
+.footbar{
+	display: flex;
+}
+.shopandlearn, .Services, .applestore, .bussiness, .applevalues{
+	padding-top: 20px;
+	padding-right: 60px;
+}
+
+.footbar h1{
+font-family: SF Pro Text;
+font-size: 12px;
+font-weight: 700;
+color: #1D1D1F;
+}
+
+.footbar li{
+	list-style: none;
+	padding-top: 10px;
+}
+
+.footbar li a{
+	text-decoration: none;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	color: #86868B;
+}
+
+.footbar li a:hover{
+	text-decoration: underline;
+	color: #1D1D1F;
+	transition: 0.3s;
+
+}
+
+.last p{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.final{
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.copy{
+	display: flex;
+}
+.copy p{
+	padding-right: 10px;
+}
+
+.main{
+	padding-right: 40px;
+	display: flex;
+}

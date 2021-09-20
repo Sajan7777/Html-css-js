@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: grey;
+	@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+}
+.navbar{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 40px;
+}
+.logo{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li{
+	display: inline-block;
+	padding: 10px;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li a:hover{
+	color: yellow;
+	transition: 0.3s ease;
+}
+.box{
+	display: flex;
+	align-items: center;
+
+}
+.menu{
+	width: 30px;
+	height: 30px;
+	margin-left: 30px;
+	color: #fff;
+	display: none;
+}
+.img, .text{
+	width: 50%;
+}
+img{
+	width: 40%;
+	height: 30%;
+	margin: 0 40px;
+	
+}
+p{
+	color: #fff;
+	margin: 0 40px;
+}
+@media screen and (max-width: 800px) {
+	.box{
+	align-items: center;
+	display: block;
+	flex-wrap: wrap;
+	}
+	img{
+	width: 80%;
+	height: 60%;
+}
+.navbar ul li{
+	display: none;
+}
+
+.menu{
+	display: flex;
+	cursor: pointer;
+}
